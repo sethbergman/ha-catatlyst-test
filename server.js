@@ -1,9 +1,9 @@
-const express = require ('express');
-const app = express();
+import express from 'express';
+let app = express();
 const http = require('http');
 const sqrt = require('math-sqrt');
 
-require('math');
+require('./views/math.js');
 
 app.engine('html', require('ejs').renderFile);
 app.set('/views', express.static(__dirname + '/views'))
@@ -13,8 +13,8 @@ app.get('/', function (req, res){
 	res.render('index.html');
 })
 
-app.get('/math', function (req, res) {
-	res.render('math.html')
+app.get('/math-sqrt', function (req, res) {
+	res.render('math.html');
 })
 
 const server = app.listen(process.env.PORT || 5000, function () {
