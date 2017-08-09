@@ -194,6 +194,14 @@ isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
 
+math-sqrt@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/math-sqrt/-/math-sqrt-1.0.1.tgz#37f5639d67d317d7273cdaae984c5d775a143425"
+
+math@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/math/-/math-0.0.3.tgz#85b020fd54ce10b26abeabfcd7e1f4bdbc46470f"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
