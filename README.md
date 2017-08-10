@@ -20,6 +20,7 @@ async function getProcessedData(url) {
   }
   return processDataInWorker(v);
 }
+```
 
 ### Example 3
 [from my blog - async / await](https://blog.sethbergman.com/level-up-using-async-await-with-the-mean-stack/)
