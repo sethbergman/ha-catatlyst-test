@@ -1,3 +1,7 @@
-import * from 'math-sqrt';
-
-\forall x \geq 0, \mathtt{Math.sqrt(x)} = \sqrt{x} = \text{the unique} \; y \geq 0 \; \text{such that} \; y^2 = x
+const sqrt = require("math-sqrt")
+let value = (x) => sqrt()
+let x = Date.now()
+let y = (sqrt(x))
+console.log(x)
+console.log(y)
+sqrt(y)
