@@ -42,6 +42,7 @@
   },
   "paths": {
     "root": "src",
+    "math": "src/math",
     "resources": "resources",
     "elements": "resources/elements",
     "attributes": "resources/attributes",
