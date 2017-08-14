@@ -10,7 +10,7 @@ export function configure(aurelia) {
   }
 
   if (environment.testing) {
-    aurelia.use.plugin('aurelia-testing');
+    aurelia.use('math');
   }
 
   aurelia.start().then(() => aurelia.setRoot());
